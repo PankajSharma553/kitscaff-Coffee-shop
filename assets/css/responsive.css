@@ -1,0 +1,145 @@
+@media (max-width:1200px){
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 18px;
+        padding-bottom: 50px;
+      }
+}
+@media (max-width:1024px){
+    section,.section {
+        padding: 50px 0;
+    }
+    .hero {
+        height: 700px;
+    }
+    .hero p {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    .hero_content h1 {
+        font-size: 50px;
+      }
+      .section-title {
+        font-size: 2rem;
+        margin-bottom: 18px;
+        padding-bottom:32px;
+      }
+      .why-us .card-item {
+        padding: 40px 28px;
+       
+    }
+    .findsec_info {
+        gap: 20px;
+        margin-top:42px;
+    }
+}
+@media (max-width:768px){
+    section,.section {
+        padding: 42px 0;
+    }
+    .hero {
+        height: 650px;
+    }
+    .hero_content h1 {
+        font-size: 40px;
+      }
+    .hero p {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .section-title {
+        margin-bottom: 16px;
+        padding-bottom:32px;
+      }
+      .why-us .card-item {
+        padding:32px;
+       
+    }
+    .cta_sec {
+        padding: 28px 0;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:575px){
+    section,.section {
+        padding: 32px 0;
+    }
+    .hero {
+        height: 550px;
+    }
+    .hero_content h1 {
+        font-size: 28px;
+      }
+      .section-title {
+        font-size: 28px;
+        margin-bottom: 8px;
+        padding-bottom:24px;
+      }
+      .why-us .card-item {
+        padding:24px;
+       
+    }
+    .findsec_info {
+        gap: 16px;
+        margin-top: 32px;
+        flex-direction: column;
+    }
+    .findsec_infoRight {
+        padding: 18px;
+        max-width: 100%;
+    }
+    .cta_sec {
+        padding: 24px 0;
+        margin-bottom: 24px;
+    }
+    .footer_list {
+        gap: 16px;
+        flex-direction: column;
+    }
+    .social-links {
+        margin-bottom: 16px;
+    }
+    .footer .social-links a {
+        width: 32px;
+        height: 32px;
+    }
+   
+    .copyright_wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+  
+}
+@media (max-width:480px){
+    section,.section {
+        padding: 28px 0;
+    }
+    .hero {
+        height: 500px;
+    }
+    .hero_content h1 {
+        font-size: 26px;
+      }
+      .section-title {
+        font-size: 24px;
+        margin-bottom: 4px;
+        padding-bottom:20px;
+      }
+      .newsletter_wrapper {
+        padding: 18px;
+    }
+      .newsletter_form {
+        flex-direction: column;
+    }
+    .newsletter {
+        height: 450px;
+        margin-bottom: 42px;
+    }
+    .cta_sec {
+        padding: 20px 0;
+    }
+    .submit_btn {
+        padding: 8px 24px;
+        margin-bottom: 0;
+    }
+}

@@ -4,16 +4,12 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
   color: #333;
-}
-
-/* .container {
-    width: 80%;
-    margin: 0 auto;
 } */
+
 
 /* Header Section */
 header {
@@ -49,7 +45,7 @@ header nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-  background-image: url("../images/hero2.jpg");
+  background-image: url("../images/homepage-banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -59,7 +55,32 @@ header nav ul li a:hover {
 }
 
 .menu_banner {
-  background-image: url("../images/menu-banner.jpg") !important;
+  background-image: url("../images/menu-banner.jpeg") !important;
+  height: 550px !important;
+}
+
+.ourStory_banner {
+  background-image: url("../images/ourstory_banner.jpg");
+  height: 550px !important;
+}
+
+.getInTouch_banner {
+  background-image: url("../images/get-in-touch_banner.jpg");
+  height: 550px !important;
+}
+
+.personalData_banner {
+  background-image: url("../images/personal-data-policy_banner.jpg");
+  height: 550px !important;
+}
+
+.privacyPolicy_banner {
+  background-image: url("../images/privacy-policy_banner.jpg");
+  height: 550px !important;
+}
+
+.term_banner {
+  background-image: url("../images/terms-and-conditions_banner.jpg");
   height: 550px !important;
 }
 
@@ -165,7 +186,6 @@ footer p {
 
 /* hero section */
 .hero {
-  background-image: url("../images/hero2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -191,6 +211,7 @@ footer p {
 .hero_content {
   max-width: 850px;
   width: 100%;
+  padding-inline: 4px;
   margin: 0 auto;
   position: relative;
   z-index: 2;
@@ -202,9 +223,10 @@ footer p {
 }
 
 .hero_content h1 {
-  font-size: 50px;
+  font-size: 60px;
   color: white;
 }
+
 
 /* inner css */
 
@@ -215,28 +237,19 @@ footer p {
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Satisfy", sans-serif;
-  --nav-font: "Poppins", sans-serif;
+  --default-font: "Roboto";
+  --heading-font: "Satisfy";
+  --nav-font: "poppins";
 }
-
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
   --background-color: #ffffff;
-  /* Background color for the entire website, including individual sections */
   --default-color: #444444;
-  /* Default color used for the majority of the text content across the entire website */
   --heading-color: #433f39;
-  /* Color for headings, subheadings and title throughout the website */
   --accent-color: #ffb03b;
-  /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff;
-  /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff;
-  /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
-/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #ffffff;
   /* The default color of the main navmenu links */
@@ -2087,14 +2100,13 @@ footer .address h4 {
 }
 
 .menu_secRightImg {
-  background-image: url("../images/menu1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  /* height: 100%; */
   height: 400px;
   display: block;
+  border-radius: 4px;
   position: relative;
 }
 
@@ -2107,6 +2119,22 @@ footer .address h4 {
   bottom: 0;
   background-color: rgba(21, 17, 13, 40%);
   border-radius: 4px;
+}
+
+.menu_sec1 .menu_secRightImg {
+  background-image: url("../images/menu1.jpg");
+}
+
+.menu_sec2 .menu_secRightImg {
+  background-image: url("../images/menu2.jpg");
+}
+
+.menu_sec3 .menu_secRightImg {
+  background-image: url("../images/menu3.jpg");
+}
+
+.menu_sec4 .menu_secRightImg {
+  background-image: url("../images/menu4.jpg");
 }
 
 .menu_secLeft {
@@ -2176,13 +2204,6 @@ body {
   color: #333;
   line-height: 1.6;
 }
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 .section-title {
   font-size: 2rem;
   font-weight: 600;
@@ -2229,4 +2250,116 @@ body {
   font-size: 1.1rem;
   color: #333;
   margin-bottom: 10px;
+}
+
+.ourStory_inner {
+  max-width: 950px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.ourStory_list {
+  list-style: disc;
+  margin-bottom: 16px;
+}
+
+.ourStory_item {
+  text-align: start;
+}
+
+.getInTouch_inner {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul,
+ol,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+.getInTouch_inner .social-links {
+  margin-top: 16px;
+}
+
+.getInTouch_inner .social-links .social_linkIcon {
+  filter: invert(0);
+}
+
+.getInTouch_inner .social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--default-color);
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+.getInTouch_inner .social-links a:hover {
+  background-color: #d35400;
+  border-color: transparent;
+}
+
+.getInTouch_inner .social-links a:hover .social_linkIcon {
+  filter: invert(1);
+}
+
+.getInTouch_inner h3 {
+  color: var(--heading-color);
+  margin: 10px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: var(--heading-font);
+  padding-bottom: 16px;
+}
+
+.getInTouch_inner p {
+  margin-bottom: 16px;
+}
+
+
+/* infoSec */
+.infoSec_wrapper {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 24px;
+  border-radius: 4px;
+}
+
+.infoSec_content {
+  text-align: start;
+}
+
+.infoSec_content h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.infoSec_content p {
+  font-size: 1rem;
+  text-align: start;
+  color: #5a5a5a;
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+
+.infoSec_content ul {
+  margin-bottom: 16px;
+  list-style: disc;
+  padding-left: 24px;
+}
+
+.infoSec_content ul li {
+  margin-bottom: 8px;
 }
